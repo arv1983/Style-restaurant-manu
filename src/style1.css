@@ -4,6 +4,8 @@
 
 body {
     background-image: url("./img/map-bg.jpg");
+    font-family: Lato;
+    font-size: 18px;
 }
 
 nav {
@@ -32,6 +34,7 @@ h1 {
 #menu {
     columns: 400px 2;
     column-gap: 100px;
+    border: 2px;
     column-rule: 2px dashed rosybrown;
 }
 
@@ -43,12 +46,12 @@ section {
 /* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */
 
 
-/* colocar em minusculo */
+/* colocar em small-caps */
 
 h2 {
     margin: 0;
     color: #6d4c41;
-    text-transform: lowercase;
+    text-transform: small-caps;
 }
 
 
@@ -67,7 +70,7 @@ dd {
 
 dt {
     display: flex;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -85,6 +88,8 @@ dt {
 /* Draw a 2px dashed rosybrown border around the address/footer */
 
 address {
+    border: 2px;
     padding: 10px;
     border-style: dashed;
+    border-color: rosybrown;
 }
