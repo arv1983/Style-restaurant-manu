@@ -42,10 +42,13 @@ section {
 
 /* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */
 
+
+/* colocar em minusculo */
+
 h2 {
     margin: 0;
     color: #6d4c41;
-    font-variant: small-caps;
+    text-transform: lowercase;
 }
 
 
